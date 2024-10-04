@@ -11,15 +11,43 @@ i m using a cloud provider VULTR it give 300$ cerdits,
 sign up and create vpc and select location i have selected delhi
 ipv4 set ip range 172.31.0.0/24 and give network name mydfir-soc-challenge
 now create instance for elastic dedicated CPU,location delhi, ISO ubuntu 22.4 ,configuration 80gb 16 ram 4cpu disable ipv6 enable vpc and select our vpc name the instance mydfir-elk
+create firewall rule ssh and my ip so that only we can access the ubuntu instance 
 open powerpoint and run ssh to connect to the instance we have created
-update and upgrade using wget download elastci searh conf deb x86
+update and upgrade using wget download elastic search conf deb x86
 install elasticsearch using
 ```
 dpkg -i <filename.deb>
 ```
 save the security autoconfiguration information in notepad
+configure the elasticsearch.yml file 
+```
+nano /etc/elasticsearch/elasticsearch.yml
+```
+remove # from host ip and port it should be ubuntu instance ip and port 9200 save and exit
+run this command so it will start the elasticsearch 
+```
+systemctl daemon-reload
+systemctl enable elasticsearch.service
+systemctl start elasticsearch.service
+systemctl status elasticsearch.service
+```
+<br>
 
-
-
+2.Kibana setup
+copy the link address of kibana from browser conf deb x84 
+download and install using wget and dpkg as shown above 
+change the .yml file at location
+```
+nano /etc/kibana/kibana.yml
+```
+server port 5601 and ip of instance 
+and run the command 
+```
+systemctl daemon-reload
+systemctl enable kibana.service
+systemctl start kibana.service
+systemctl status kibana.service
+```
+now add another firewall rule tcp port 1-65535 and my ip so we can access in browser 
 
 
