@@ -8,6 +8,17 @@ K-ELK- kibana is web console web GUI, visuailizations.<br>
 ## Steps
 1. Elasticsearch setup<br>
 i m using a cloud provider VULTR it give 300$ cerdits,
+sign up and create vpc and select location i have selected delhi
+ipv4 set ip range 172.31.0.0/24 and give network name mydfir-soc-challenge
+now create instance for elastic dedicated CPU,location delhi, ISO ubuntu 22.4 ,configuration 80gb 16 ram 4cpu disable ipv6 enable vpc and select our vpc name the instance mydfir-elk
+open powerpoint and run ssh to connect to the instance we have created
+update and upgrade using wget download elastci searh conf deb x86
+install elasticsearch using
+```
+dpkg -i <filename.deb>
+```
+save the security autoconfiguration information in notepad
+
 
 
 
