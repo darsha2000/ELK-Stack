@@ -49,5 +49,17 @@ systemctl start kibana.service
 systemctl status kibana.service
 ```
 -now add another firewall rule tcp port 1-65535 and my ip so we can access in browser 
+![Screenshot 2025-01-08 002054](https://github.com/user-attachments/assets/1ebadc54-96ff-4ea1-9e86-d4d98ba82b52)
 
+![Screenshot 2025-01-08 002402](https://github.com/user-attachments/assets/2c24f26f-51f8-4d84-8355-9d68bedb96b9)
 
+![Screenshot 2025-01-08 002402](https://github.com/user-attachments/assets/ac09282e-9623-49c4-aa29-1a45c183ad7c)
+
+![Screenshot 2025-01-08 023702](https://github.com/user-attachments/assets/b1be10fe-9990-45c2-97c0-1b29a1c3a02a)
+![Screenshot 2025-01-08 023717](https://github.com/user-attachments/assets/b9702739-caed-4b3b-9aee-28c5aa8a3544)
+![Screenshot 2025-01-08 023733](https://github.com/user-attachments/assets/bad822e5-d4b4-4f03-bdb2-3de28e7a0291)
+![Screenshot 2025-01-08 023801](https://github.com/user-attachments/assets/2ff30e36-db12-4ced-9b75-76ec38094fa1)!
+[Screenshot 2025-01-08 033207](https://github.com/user-attachments/assets/e1948c3a-d64b-4f11-92c1-d73f47ecde7a)
+
+![Screenshot 2025-01-12 004134](https://github.com/user-attachments/assets/547edb0a-2ad7-464e-942a-25c284b91dbe)
+![Screenshot 2025-01-12 010318](https://github.com/user-attachments/assets/1c1fd4c8-1e1a-418c-86cb-e145f55a590a)
